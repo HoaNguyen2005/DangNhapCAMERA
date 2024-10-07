@@ -1,0 +1,259 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(/assets_dangnhap/img_dangnhap/wallpaperflare-cropped.jpg);
+    background-size: cover;
+    background-position-y: -200px;
+}
+.root{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'main main main'
+    'footer footer footer';
+}
+.header{
+    grid-area: header;
+    background-color: #000;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.webname{
+    padding-right: ;
+    color: #fff;
+}
+.header-logo{
+    width: 60px;
+    border-radius: 50%;
+}
+.footer{
+    grid-area: footer;
+}
+/* Dang nhap */
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.form-login{
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.8);
+    flex-grow: 1;
+    padding: 10px 30px 30px;
+    box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.8);
+}
+.form-heading{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #f5f5f5;
+    flex-grow: 1;
+}
+.form-group i{
+    color: #fff;
+    font-size: 14px;
+}
+.form-input::placeholder{
+    color: #f5f5f5;
+}
+.form-group{
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.form-submit{
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+}
+.form-submit::hover{
+    border: 1px solid #54a0ff;
+
+}
+.form-or{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    /* padding-top: 10px; */
+}
+.logo-dangnhap{
+    width: 40px;
+}
+.dangky{
+    text-decoration: none;
+    color: red;
+    padding-left: 10px;
+}
+.form-dangky{
+    color: #fff;
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* Footer */
+.toggle{
+    display: none;
+    padding: 10px 10px;
+    border: 1px solid #fff;
+    align-items: end;
+}
+.footer{
+    background-color: #000;
+    color: grey;
+}
+
+.footer:hover{
+    cursor: pointer;
+}
+.footer-information{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-information {
+    padding: 22px 26px 0px 25px;
+    display: flex;
+}
+
+.footer-information__div--category h4, .footer-information__div--introduce h4,
+.footer-information__div--help h4, .footer-information__div--contact h4, footer h3{
+    color: #FFF !important;
+}
+.footer-information__div--category div, .footer-information__div--introduce div, .footer-information__div--help div, .footer-information__div--contact div, .footer-information__div--social div{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.footer-information__div--category .img-bocongthuong{
+    width:90%;
+    margin-top: 20px;
+}
+
+.footer-information__div--help .sub div, .footer-information__div--contact div{
+    color: grey;
+}
+
+.footer-information__div--contact a, .footer-information__div--social a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: grey;
+}
+.footer-information__div--social{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-information__div--social a .img-pay{
+    width: 286px;
+    height: 96px;
+    display: block;
+    padding: 15px 0;
+}
+
+.footer-information__div--social .footer-information__div--icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-information__div--icon span{
+    border: 1px solid #4267b2;
+    background-color:#4267b2;
+    border-radius: 5px;
+    padding: 12px 10px;
+    color: #FFF;
+}
+
+.footer-information__div--icon span:hover{
+    cursor: pointer;
+    background-color: #FFF;
+    color: #000;
+}
+
+.footer-information__div--social h3{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.footer-information__div--social a, #footer__div--one{
+    color: red;
+    font-size: 26px;
+    font-weight: bolder;
+    text-align: center;
+    /* padding: 6px; */
+}
+
+.footer-icon__i--youtube{
+    color: red;
+    font-size: 30px;
+    padding: 6px;
+}
+
+.footer-icon__i--facebook{
+    color: blue;
+    font-size: 30px;
+    padding: 6px;
+}
+
+.footer-icon__i--instagram{
+    color: #da0e67;
+    font-size: 30px;
+    padding: 6px;
+}
+
+.footer-adress-pay{
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.footer__div--adress{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+
+
+.footer__div--adress div{
+    padding: 6px 0;
+}
+
+.footer__div--adress div a{
+    text-decoration: none;
+    color: blue;
+}
+
+.footer__div--adress div a:hover{
+    color: grey;
+}
+
+.footer__div--pay{
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.footer__div--pay h3{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+/* Footer */

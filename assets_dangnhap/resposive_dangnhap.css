@@ -1,0 +1,181 @@
+/* MayTinh */
+@media (min-width: 1024px) {
+    .footer{
+        background-color: black;
+    }
+    .footer-information{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .footer-information__div--category .img-bocongthuong{
+        width: 60%;
+    }
+    .footer-information__div--social a .img-pay{
+        margin-left: 2%;
+    }
+}
+/* iPhone 6/7/8 */
+@media (max-width: 768px) {
+    .main-container{
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    .header{
+        justify-content: space-around;
+    }
+    .header-logo{
+        margin-left: -70%;
+        width: 30px;
+    }
+    .webname{
+        font-size: 20px;
+        margin-right: 19px;
+    }
+    .user{
+        margin-right: 20px;
+    }
+    .form-heading{
+        font-size: 20px;
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+    .form-login{
+        max-width: 220px;
+    }
+    .form-input{
+        background: transparent;
+        border: 0;
+        outline: 0;
+        color: #f5f5f5;
+        flex-grow: 1;
+    }
+    .form-group i{
+        color: #fff;
+        font-size: 10px;
+    }
+    .form-group{
+        border-bottom: 1px solid #fff;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .form-submit{
+        background: transparent;
+        border: 1px solid #f5f5f5;
+        color: #fff;
+        width: 100%;
+        text-transform: uppercase;
+        padding: 6px 10px;
+        transition: 0.25s ease-in-out;
+        margin-top: 20px;
+    }
+    .form-submit::hover{
+        border: 1px solid #54a0ff;
+    
+    }
+    .logo-dangnhap{
+        width: 30px;
+    }
+    .dangky{
+        text-decoration: none;
+        color: red;
+        padding-left: 10px;
+    }
+    .form-dangky{
+        font-size: 12px;
+        color: #fff;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .toggle{
+        display: block;
+    }
+    .footer-information__div--category .img-bocongthuong{
+        width: 20%;
+    }
+    .footer-information{
+        margin-right: -3px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-information__div--social a .img-pay{
+        margin-left: 4%;
+    }
+}
+/* iPad */
+@media (min-width: 769px) and (max-width: 1023px) {
+    .form-heading{
+        font-size: 30px;
+        margin-bottom: 50px;
+        margin-top: 60px;
+    }
+    .form-login{
+        max-width: 550px;
+        height: 700px;
+    }
+    .form-input{
+        background: transparent;
+        border: 0;
+        outline: 0;
+        color: #f5f5f5;
+        flex-grow: 1;
+    }
+    .form-group i{
+        color: #fff;
+        font-size: 20px;
+    }
+    ::placeholder.form-input{
+        font-size: 50px;
+    }
+    .form-group{
+        border-bottom: 1px solid #fff;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .form-submit{
+        background: transparent;
+        border: 1px solid #f5f5f5;
+        color: #fff;
+        width: 50%;
+        text-transform: uppercase;
+        padding: 6px 10px;
+        transition: 0.25s ease-in-out;
+        margin-top: 40px;
+        margin-left: 25%;
+    }
+    .form-submit::hover{
+        border: 1px solid #54a0ff;
+    
+    }
+    .logo-dangnhap{
+        width: 60px;
+    }
+    .dangky{
+        text-decoration: none;
+        color: red;
+        padding-left: 10px;
+    }
+    .form-dangky{
+        font-size: 20px;
+        color: #fff;
+        padding-top: 30px;
+        text-align: center;
+    }
+    ::placeholder{
+        font-size: 15px;
+    }
+    .footer-information {
+        padding: 22px 26px 0px 25px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-information__div--category .img-bocongthuong{
+        width: 60%;
+    }
+    .toggle{
+        display: none;
+    }
+}
