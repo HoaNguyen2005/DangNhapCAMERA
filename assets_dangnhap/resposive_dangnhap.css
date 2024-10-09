@@ -14,6 +14,18 @@
     .footer-information__div--social a .img-pay{
         margin-left: 2%;
     }
+    .form-input{
+        background: transparent;
+        border: 0;
+        outline: 0;
+    }
+    .form-group{
+        margin: 40px;
+    }
+    .form-submit{
+        width: 70%;
+        margin-left: 60px;
+    }
 }
 /* iPhone 6/7/8 */
 @media (max-width: 768px) {
