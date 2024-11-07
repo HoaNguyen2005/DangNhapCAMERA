@@ -2,7 +2,7 @@
     font-family:'Times New Roman', Times, serif;
 }
 body{
-    background-image: url(/assets_dangnhap/img_dangnhap/wallpaperflare-cropped.jpg);
+    background-image: url(./assets_dangnhap/img_dangnhap/wallpaperflare-cropped.jpg);
     background-size: cover;
     background-position-y: -200px;
 }
