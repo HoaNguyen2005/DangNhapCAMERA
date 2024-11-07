@@ -196,7 +196,7 @@
         text-transform: uppercase;
         padding: 6px 10px;
         transition: 0.25s ease-in-out;
-        margin-top: 40px;
+        margin-top: -40px;
         margin-left: 25%;
     }
     .form-submit::hover{
