@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/7765121905.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/assets_dangnhap/dangnhap.css">
-    <link rel="stylesheet" href="/assets_dangnhap/resposive_dangnhap.css">
+    <link rel="stylesheet" href="./assets_dangnhap/dangnhap.css">
+    <link rel="stylesheet" href="./assets_dangnhap/resposive_dangnhap.css">
     <link rel="icon" href="/assets_dangnhap/img_dangnhap/header-logo.png">
-    <link rel="stylesheet" href="/assets_dangnhap/js_dangnhap.js">
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" >
     <title>Camera Shop</title>
 </head>
 <body>
+    <script src="./assets_dangnhap/js_dangnhap.js" ></script>
     <header class="header-background">
         <ul class="header">
             <li> <a href="" ><img src="/assets_dangnhap/img_dangnhap/header-logo.png" alt="header-logo" class="header-logo"> </a></li>
@@ -20,25 +20,28 @@
             <li> <a class="user" href=""><i style="color: #fff;" class="fa-regular fa-user"></i></a></li>
         </ul>                
     </header>
-    <script>
-        $(document).ready(function(){
-            $('.toggle').click(function(){
-                $('nav').slideToggle();
-            });
-        })
-    </script>
     <main class="main">
                 <div class="main-container">
                     <form class="form-login">
                         <h1 class="form-heading">Đăng nhập</h1>
-                        <div class="form-group">
+
+                        <!-- Tai khoan -->
+
+                        <div class="form-group ">
                             <i class="fa-solid fa-user"></i>
-                            <input type="text" class="form-input" placeholder="Tên đăng nhập" >
+                            <input type="text" id="username" class="form-input" placeholder="Tên đăng nhập" > <br>
+                            <small class="message"></small>
                         </div>
+
+                        <!-- Mat khau -->
+
                         <div class="form-group">
                             <i class="fa-solid fa-key"></i>
-                            <input type="password" class="form-input" placeholder="Mật khẩu">
+                            <input type="password" id="password" class="form-input" placeholder="Mật khẩu"> <br>
+                            <small class="message"></small>
                         </div>
+                        <!--Form submit-->
+
                             <input type="submit" value="Đăng nhập" class="form-submit">
                         <h1 style="opacity: 50%;" class="form-heading">--- Hoặc ---</h1>
                         <div class="form-or">
@@ -105,5 +108,4 @@
 
     </footer>
 </body>
-
 </html>
