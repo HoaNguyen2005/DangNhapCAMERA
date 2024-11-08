@@ -22,8 +22,9 @@ body{
     justify-content: space-around;
 }
 .webname{
-    padding-right: ;
+    padding-right: 60px;
     color: #fff;
+    font-family: 'Montserrat', sans-serif;
 }
 .header-logo{
     width: 60px;
@@ -44,7 +45,7 @@ body{
     background: rgba(0, 0, 0, 0.8);
     flex-grow: 1;
     padding: 10px 30px 30px;
-    border-radius: 1%;
+    border-radius: 2%;
     box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.8);
 }
 
@@ -54,8 +55,17 @@ body{
     text-align: center;
     margin-bottom: 20px;
     margin-top: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+.form-heading2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
 }
 .form-input{
+    font-family: 'Montserrat', sans-serif;
     background: transparent;
     border-bottom: 1px solid white;
     outline: 0;
@@ -71,7 +81,7 @@ body{
     display: none;
     margin: 2px 0 12px 0;
     font-weight: bold;
-    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
 }
 /* <div class="form-group success"> */
 
@@ -81,7 +91,7 @@ body{
 .form-group.success .message {
     color: green;
     font-weight: 900;
-    font-size: 1em;
+    font-size: 15px;
     visibility: visible;
     display: block;
     /* content: "Passed."; */
@@ -97,11 +107,15 @@ body{
     margin-top: 10px;
     display: block;
     color: red;
+    
 }
 
-.form-group i{
+.form-group label{
     color: #fff;
     font-size: 14px;
+}
+.form-group label:hover{
+    color: #54a0ff;
 }
 .form-input::placeholder{
     color: #f5f5f5;
@@ -119,17 +133,17 @@ body{
     text-transform: uppercase;
     padding: 6px 10px;
     transition: 0.25s ease-in-out;
-    margin-top: 70px;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
-.form-submit::hover{
+.form-submit:hover{
     border: 1px solid #54a0ff;
-
+    color: #54a0ff;
 }
 .form-or{
     display: flex;
-    /* justify-content: center; */
     justify-content: space-evenly;
-    /* padding-top: 10px; */
+    font-family: 'Montserrat', sans-serif;
 }
 .logo-dangnhap{
     width: 40px;
@@ -138,13 +152,17 @@ body{
     text-decoration: none;
     color: red;
     padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.dangky:hover{
+    color: #54a0ff;
 }
 .form-dangky{
     color: #fff;
     padding-top: 30px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
-
 /* Footer */
 .toggle{
     display: none;
@@ -163,19 +181,17 @@ body{
 .footer-information{
     display: flex;
     justify-content: space-evenly;
-}
-.footer-information {
     padding: 22px 26px 0px 25px;
-    display: flex;
 }
-
 .footer-information__div--category h4, .footer-information__div--introduce h4,
 .footer-information__div--help h4, .footer-information__div--contact h4, footer h3{
     color: #FFF !important;
+    font-family: 'Montserrat', sans-serif;
 }
 .footer-information__div--category div, .footer-information__div--introduce div, .footer-information__div--help div, .footer-information__div--contact div, .footer-information__div--social div{
     margin-bottom: 8px;
     margin-top: 8px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .footer-information__div--category .img-bocongthuong{
